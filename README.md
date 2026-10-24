@@ -1,106 +1,116 @@
-<div align="center">
+# Nikhil Deo
 
-# Hi, I'm Nikhil Deo 👋
-### **AI Engineer • LLM Systems & Applied Machine Learning**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nikhil%20Deo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
-[![Email](https://img.shields.io/badge/Email-nikhildeonikhil%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nikhildeonikhil@gmail.com)
-[![GitHub Repos](https://img.shields.io/badge/Portfolio-Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nikhildevnikhil?tab=repositories)
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+Production+RAG+Architectures;Developing+LLM-as-a-Judge+Evaluation+Pipelines;Designing+FastAPI+%26+Vector+DB+Microservices;Automating+Low-Level+System+%26+Android+Workflows" alt="Typing SVG" />
-</p>
+**AI Engineer** • Generative AI, Hybrid RAG Architectures & Agentic Systems  
+Kolkata, India • [nikhildeonikhil@gmail.com](mailto:nikhildeonikhil@gmail.com) • [LinkedIn](https://www.linkedin.com/in/nikhildeo1610) • [GitHub](https://github.com/nikhildevnikhil)
 
 ---
 
-</div>
+## 🎯 About & Engineering Focus
 
-## 🚀 About Me
+AI Engineer with 3+ years of software and GenAI engineering experience architecting enterprise RAG pipelines, multi-agent systems, and low-latency inference microservices. 
 
-I am an **AI Engineer and Systems Developer** focused on bridging cutting-edge Large Language Models with robust, production-grade software architectures. My work spans:
-* **Retrieval-Augmented Generation (RAG):** Designing end-to-end semantic search engines with hybrid retrieval, hierarchical chunking, and mathematical quality benchmarks (nDCG, MRR, Context Recall).
-* **LLM Evaluation & Synthetic Data:** Building automated LLM-as-a-Judge grading rubrics, factual attribution verifiers, and adversarial test harnesses.
-* **High-Throughput Backends:** Architecting sub-second async API services with FastAPI, ChromaDB, and real-time streaming inference.
-* **Developer Tooling & Automation:** Creating resilient CLI tools and automation engines with atomic state verification and zero external bloat.
+At **Tata Consultancy Services (Client: KPMG)**, I architected an enterprise hybrid RAG aggregator indexing 300,000+ monthly documents with `<180ms` p95 retrieval latency using Azure AI Search, dense vectors, BM25, and semantic reranking. Previously, engineered a ServiceNow ticket triage agent using LangChain, LangGraph, and Azure OpenAI that routed ~30,000 tickets monthly, cutting triage time from 2.5 hours to under 4 minutes.
 
----
-
-## 🛠️ Technical Arsenal
-
-<div align="center">
-
-### **Artificial Intelligence & LLM Ops**
-![Python](https://img.shields.io/badge/Python_3.11+-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/Chroma_Vector_DB-FF6F00?style=flat-square&logo=databricks&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8A2BE2?style=flat-square&logo=openai&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-
-### **Full-Stack & Backend Systems**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
+My technical focus centers on **empirical retrieval quality, multi-agent orchestration, and production inference economics**:
+- **Information Retrieval & Hybrid RAG:** Dense + sparse (BM25) fusion, Reciprocal Rank Fusion (RRF), cross-encoder reranking, and semantic chunking.
+- **Agentic Workflows & Multi-Agent Systems:** Stateful LangGraph execution graphs, human-in-the-loop validation, dynamic tool routing, and deterministic guardrails.
+- **Empirical Evaluation & LLMOps:** Automated evaluation gates using RAGAS, continuous benchmarking (MRR, nDCG@K, Precision@K, Context Recall), and LLM-as-a-Judge rubrics.
+- **Cost & Latency Reduction:** Vector semantic caching with Redis, context-window budgeting, and prompt compression techniques.
 
 ---
 
-## 🌟 Featured Flagship Projects
+## 🚀 Featured AI Engineering Projects
 
 ### 🧠 [RAG Studio — Configurable RAG & LLM-as-a-Judge Evaluation Workbench](https://github.com/Nikhildevnikhil/RAG-Studio)
-> *Enterprise-grade AI workbench for experimenting with ingestion strategies, inspecting inline citations, and mathematically evaluating answer faithfulness.*
+> *An enterprise AI workbench for end-to-end RAG experimentation, inline citation verification, and automated evaluation across 10 retrieval metrics and 11 LLM-as-a-Judge criteria.*
 
-* **Multi-Format Ingestion:** Ingests PDF, DOCX, Markdown, CSV, and XLSX preserving document hierarchy, breadcrumbs, and tables.
-* **6 Chunking Strategies:** Recursive Character, Token-based, Sentence window, Paragraph, and Heading-aware chunking.
-* **Top 10 Mathematical Retrieval Metrics:** Measures Precision@K, Recall@K, F1@K, Hit Rate, MRR, MAP, nDCG, and Context Precision against gold-standard passage labels.
-* **Automated LLM-as-a-Judge:** 11-criteria evaluation rubric (Faithfulness, Answer Relevance, Citation Correctness, Groundedness) with root-cause failure tagging.
-* **Stack:** `FastAPI` • `ChromaDB` • `Uvicorn` • `React` • `TypeScript` • `Tailwind CSS` • `Ollama / Groq / OpenAI`
-
----
-
-### 🛡️ [Universal Android Debloater & Recovery Suite](https://github.com/Nikhildevnikhil/debloat-your-device)
-> *Zero-dependency, evidence-based package management & safety engine for 8+ Android OEM ecosystems.*
-
-* **Evidence-Based 5-Tier Classification:** Protects critical system frameworks (Tier 0) while isolating vendor adware and telemetry.
-* **Mandatory Baseline Safety Snapshot:** Archives machine-readable package manifests and hardware fingerprints before any mutation.
-* **Automated One-Click Recovery:** Generates standalone PowerShell and Bash recovery scripts with atomic state verification.
-* **Stack:** `Python 3 (Standard Library)` • `ADB Automation` • `PowerShell` • `Bash` • `Cross-OEM Architecture`
+- **Multi-Format Ingestion Engine:** Parses PDF, DOCX, TXT, Markdown, CSV, and XLSX preserving document hierarchy, breadcrumbs, and tables with SHA-256 deduplication.
+- **6 Chunking Strategies:** Recursive character, fixed-window, token-budgeted, sentence-level, paragraph, and markdown header-aware splitting.
+- **Top 10 Mathematical IR Metrics:** Calculates exact mathematical scores against gold-standard passage labels: Precision@K, Recall@K, F1@K, Hit Rate@K, MRR, MAP@K, nDCG@K, R-Precision, Context Precision, and Context Recall.
+- **LLM-as-a-Judge Engine:** Standardized 11-criteria rubric (Faithfulness, Answer Relevance, Citation Correctness, Groundedness) with root-cause failure tagging (`low_retrieval_recall`, `noisy_retrieval`, `hallucination_unfaithful`, `failed_abstention`).
+- **Interactive Evidence Inspector:** 3-panel chat playground with bracketed citations (`[1]`, `[2]`), latency breakdown tracing, and chunk inspection.
+- **Tech Stack:** `Python` • `FastAPI` • `ChromaDB` • `NumPy` • `PostgreSQL / pgvector` • `React` • `TypeScript` • `Docker`
 
 ---
 
-### 📊 [Predictive Disease Classification Machine Learning Suite](https://github.com/Nikhildevnikhil/Disease-Prediction-using-Classifying-Algorithms)
-> *Comparative medical diagnosis classification framework evaluating multi-model predictive accuracy.*
+### 🤖 [Autonomous Multi-Agent Research Assistant & Self-Corrective RAG](https://github.com/Nikhildevnikhil/autonomous-agent-rag) `[Repository Draft]`
+> *Stateful multi-agent research workflow featuring autonomous web search tool calling, persistent scratchpad memory, and a self-corrective hallucination grader.*
 
-* Evaluates Decision Trees, Random Forests, and Gradient Boosting against clinical datasets.
-* Features end-to-end data cleansing, feature scaling, confusion matrix analysis, and validation pipelines.
-* **Stack:** `Python` • `Scikit-Learn` • `Pandas` • `NumPy` • `Matplotlib`
-
----
-
-## 📈 GitHub Telemetry
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikhildevnikhil&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Nikhil's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikhildevnikhil&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="45%" />
-</div>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nikhildevnikhil&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="95%" />
-</p>
+- **Self-Corrective Loop:** Implemented a LangGraph cyclical state machine where an LLM-as-a-Judge grader evaluates retrieval confidence and answer faithfulness. Low confidence triggers automatic query reformulation and re-retrieval.
+- **Empirical Impact:** Cut ungrounded claims from **22% down to 8%** across a 50-document evaluation benchmark.
+- **Stateful Memory:** Checkpointed graph state enabling deterministic resumption, conversational context tracking, and tool execution rollback.
+- **Tech Stack:** `Python` • `LangGraph` • `LangChain` • `FastAPI` • `ChromaDB` • `Tavily Search API` • `Docker`
 
 ---
 
-## 📬 Let's Connect & Collaborate
+### ⚡ [High-Throughput Async AI Inference Gateway](https://github.com/Nikhildevnikhil/async-ai-inference-gateway) `[Repository Draft]`
+> *Event-driven LLM inference gateway engineered for high-concurrency workloads, semantic vector caching, and end-to-end Prometheus observability.*
 
-* 💼 **Looking for:** AI Engineer / Applied ML Engineer / LLM Systems Engineer roles.
-* 💬 **Ask me about:** RAG optimization, vector indexing, evaluation rubrics, high-speed API design.
-* 📫 **Email:** [nikhildeonikhil@gmail.com](mailto:nikhildeonikhil@gmail.com)
-* 🌐 **GitHub:** [@Nikhildevnikhil](https://github.com/Nikhildevnikhil)
+- **Redis Vector Semantic Caching:** Achieved a **34% cache-hit ratio** on recurring user query distributions, bypassing LLM API calls and reducing token costs.
+- **Asynchronous Kafka Workers:** Decoupled client request ingress from long-running LLM generation pipelines, maintaining service availability under traffic spikes.
+- **Latency Optimization:** Reduced p95 end-to-end workflow execution time from **3.5s to 2.1s**.
+- **Tech Stack:** `FastAPI` • `LangChain` • `Redis` • `Apache Kafka` • `PostgreSQL` • `Prometheus` • `Grafana`
+
+---
+
+### 🛡️ [Universal Android Debloater & System Automation Suite](https://github.com/Nikhildevnikhil/debloat-your-device)
+> *Zero-dependency, evidence-based package audit and device debloating engine with automated rollback safety for 8+ Android OEM ecosystems.*
+
+- **5-Tier Safety Classification:** Isolates carrier and vendor telemetry/adware while strictly preserving OEM critical framework dependencies (Tier 0).
+- **Atomic Safety Verification:** Creates machine-readable hardware and package snapshots before any mutation, generating one-click recovery scripts.
+- **Tech Stack:** `Python 3 (Standard Library)` • `ADB` • `PowerShell` • `Bash` • `Cross-Platform Systems`
+
+---
+
+## 🛠️ Technical Capabilities
+
+| Domain | Technologies & Methodologies |
+| :--- | :--- |
+| **LLM & Agentic Engineering** | Hybrid RAG, Multi-Agent Orchestration (LangGraph, LangChain), Tool Calling, Self-Correction, Semantic Chunking, Context-Window Budgeting, Prompt-Injection Guardrails |
+| **Retrieval & Vector Search** | Azure AI Search, ChromaDB, PostgreSQL (pgvector), Redis Semantic Cache, BM25 Hybrid Fusion, Cross-Encoder Reranking, MMR |
+| **Evaluation & Quality Assurance** | RAGAS (Faithfulness, Context Precision, Answer Relevancy), LLM-as-a-Judge Rubrics, Precision@K, Recall@K, MRR, nDCG@K |
+| **Backend & Microservices** | FastAPI, Python (Asyncio), Spring Boot, Java, RESTful APIs, Apache Kafka, RabbitMQ, Redis, PostgreSQL, MongoDB |
+| **Cloud, Models & LLMOps** | Azure OpenAI (GPT-4o, text-embedding-3), Azure AI Foundry, AWS Bedrock (Claude 3.5, Llama 3), Docker, Kubernetes (AKS), GitHub Actions CI/CD, Prometheus, Grafana, Linux |
+
+---
+
+## 💼 Professional Experience
+
+- **System Engineer (GenAI / RAG Engineering)** — **Tata Consultancy Services** *(Client: KPMG)*  
+  *Mar 2026 – Present • Kolkata, India*  
+  - Architected enterprise RAG knowledge aggregator on FastAPI and Azure AI Search (`text-embedding-3-large` + BM25 hybrid search with semantic reranking), indexing 300,000+ monthly documents with `<180ms` p95 retrieval latency.  
+  - Deployed multi-agent workflows on Azure AI Foundry, Azure OpenAI (GPT-4o), Docker, and AKS; instrumented Prometheus latency and token telemetry with prompt-injection guardrails.
+
+- **Assistant System Engineer (AI Engineering)** — **Tata Consultancy Services**  
+  *Mar 2024 – Mar 2026 • Kolkata, India*  
+  - Engineered Python ServiceNow triage and routing agent using LangChain, LangGraph, and Azure OpenAI, routing 1,000+ daily tickets (~30,000/month); slashed triage time from 2.5 hours to under 4 minutes, saving 42+ engineer-hours weekly.  
+  - Built low-latency LLM inference microservices with FastAPI, LlamaIndex, and ChromaDB; reduced p95 response latency from 4.2s to 2.9s (31%) via semantic chunking and prompt compression.  
+  - Automated CI/CD pipelines with GitHub Actions and Docker embedding automated RAGAS evaluation gates across 3 production pipelines; reduced monthly token spend by 18% using Redis semantic caching.
+
+- **Software Engineer Intern (Backend & Full-Stack)** — **Learnship & Apric**  
+  *Sep 2022 – Jul 2023 • India*  
+  - Developed containerized Java Spring Boot microservices on Docker/K8s, scaling throughput from 120 to 165 req/sec; integrated Kafka/RabbitMQ streaming pipelines.
+
+---
+
+## 📜 Certifications & Education
+
+### Certifications
+- **Microsoft Certified:** Azure AI Apps and Agents Developer Associate (`AI-103`)
+- **Microsoft Certified:** Azure AI Fundamentals (`AI-900`) • Azure Fundamentals (`AZ-900`)
+- **LangChain:** RAG, Agents & Production LLM Integration
+- **Microsoft:** LangChain Foundations
+
+### Education
+- **Master of Computer Applications (MCA)** — Vellore Institute of Technology (VIT) | *CGPA: 8.58/10 (Graduated Jul 2023)*
+- **Bachelor of Computer Applications (BCA)** — Aryabhatta Knowledge University | *(Graduated 2020)*
+
+---
+
+## 📬 Contact & Collaboration
+
+I am actively open to discussing **AI Engineer, LLM Engineer, Generative AI Engineer, and Applied AI Engineer** opportunities.
+
+- 📧 **Email:** [nikhildeonikhil@gmail.com](mailto:nikhildeonikhil@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/nikhildeo1610](https://www.linkedin.com/in/nikhildeo1610)
+- 🐙 **GitHub:** [github.com/nikhildevnikhil](https://github.com/nikhildevnikhil)
