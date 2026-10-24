@@ -33,7 +33,7 @@ My technical focus centers on **empirical retrieval quality, multi-agent orchest
 
 ---
 
-### 🤖 [Autonomous Multi-Agent Research Assistant & Self-Corrective RAG](https://github.com/Nikhildevnikhil/autonomous-agent-rag) `[Repository Draft]`
+### 🤖 [Autonomous Multi-Agent Research Assistant & Self-Corrective RAG](https://github.com/Nikhildevnikhil/autonomous-agent-rag)
 > *Stateful multi-agent research workflow featuring autonomous web search tool calling, persistent scratchpad memory, and a self-corrective hallucination grader.*
 
 - **Self-Corrective Loop:** Implemented a LangGraph cyclical state machine where an LLM-as-a-Judge grader evaluates retrieval confidence and answer faithfulness. Low confidence triggers automatic query reformulation and re-retrieval.
@@ -43,7 +43,7 @@ My technical focus centers on **empirical retrieval quality, multi-agent orchest
 
 ---
 
-### ⚡ [High-Throughput Async AI Inference Gateway](https://github.com/Nikhildevnikhil/async-ai-inference-gateway) `[Repository Draft]`
+### ⚡ [High-Throughput Async AI Inference Gateway](https://github.com/Nikhildevnikhil/async-ai-inference-gateway)
 > *Event-driven LLM inference gateway engineered for high-concurrency workloads, semantic vector caching, and end-to-end Prometheus observability.*
 
 - **Redis Vector Semantic Caching:** Achieved a **34% cache-hit ratio** on recurring user query distributions, bypassing LLM API calls and reducing token costs.
