@@ -31,25 +31,6 @@ My technical focus centers on **empirical retrieval quality, multi-agent orchest
 - **Interactive Evidence Inspector:** 3-panel chat playground with bracketed citations (`[1]`, `[2]`), latency breakdown tracing, and chunk inspection.
 - **Tech Stack:** `Python` • `FastAPI` • `ChromaDB` • `NumPy` • `PostgreSQL / pgvector` • `React` • `TypeScript` • `Docker`
 
----
-
-### 🤖 [Autonomous Multi-Agent Research Assistant & Self-Corrective RAG](https://github.com/Nikhildevnikhil/autonomous-agent-rag)
-> *Stateful multi-agent research workflow featuring autonomous web search tool calling, persistent scratchpad memory, and a self-corrective hallucination grader.*
-
-- **Self-Corrective Loop:** Implemented a LangGraph cyclical state machine where an LLM-as-a-Judge grader evaluates retrieval confidence and answer faithfulness. Low confidence triggers automatic query reformulation and re-retrieval.
-- **Empirical Impact:** Cut ungrounded claims from **22% down to 8%** across a 50-document evaluation benchmark.
-- **Stateful Memory:** Checkpointed graph state enabling deterministic resumption, conversational context tracking, and tool execution rollback.
-- **Tech Stack:** `Python` • `LangGraph` • `LangChain` • `FastAPI` • `ChromaDB` • `Tavily Search API` • `Docker`
-
----
-
-### ⚡ [High-Throughput Async AI Inference Gateway](https://github.com/Nikhildevnikhil/async-ai-inference-gateway)
-> *Event-driven LLM inference gateway engineered for high-concurrency workloads, semantic vector caching, and end-to-end Prometheus observability.*
-
-- **Redis Vector Semantic Caching:** Achieved a **34% cache-hit ratio** on recurring user query distributions, bypassing LLM API calls and reducing token costs.
-- **Asynchronous Kafka Workers:** Decoupled client request ingress from long-running LLM generation pipelines, maintaining service availability under traffic spikes.
-- **Latency Optimization:** Reduced p95 end-to-end workflow execution time from **3.5s to 2.1s**.
-- **Tech Stack:** `FastAPI` • `LangChain` • `Redis` • `Apache Kafka` • `PostgreSQL` • `Prometheus` • `Grafana`
 
 ---
 
